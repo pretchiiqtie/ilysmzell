@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: Caveat-Bold;
+    src: url(Fonts/Caveat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Jua;
+    src: url(Fonts/Jua-Regular.ttf);
+}
+
+@font-face {
+    font-family: Capra;
+    src: url(Fonts/Caprasimo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Yellowtail;
+    src: url(Fonts/Yellowtail-Regular.ttf);
+}
+
+@font-face {
+    font-family: StoryS;
+    src: url(Fonts/StoryScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: Pacific;
+    src: url(Fonts/Pacifico-Regular.ttf);
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(zell.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.35);
+}
+
+.content .par{
+    text-align: center;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: StoryS;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 9%;
+    letter-spacing: 4px;
+}
+
+.content i{
+    color: lavender;
+    text-decoration: underline;
+}
+
+.content .cn{
+    width: 130px;
+    height: 30px;
+    background: #d8bfd8;
+    margin-left: 525px;
+    border: none;
+    color: white;
+    font-family: Caveat-Bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #ffffff;
+    color: black;
+}
